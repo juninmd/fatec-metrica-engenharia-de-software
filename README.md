@@ -7,10 +7,10 @@ A standard software project focused on providing a robust and scalable foundatio
 
 ## Installation
 
-1.  Clone the repository: `git clone https://github.com/metrica-engenharia-de-software.git`
-2.  Navigate to the project directory: `cd MetricaEngenharia-de-Software`
-3.  Install dependencies (if any): `npm install` (refer to `package.json` for specific dependencies).
-4.  Run `npm run build` to build the application.
+1.  Clone the repository: `git clone https://github.com/juninmd/fatec-metrica-engenharia-de-software.git`
+2.  Navigate to the project directory: `cd fatec-metrica-engenharia-de-software`
+3.  Open `MetricaEngenhariaSoftware.sln` in Visual Studio (the solution targets .NET Framework and uses NuGet packages listed in each project's `packages.config`; restore them when prompted or with `nuget restore MetricaEngenhariaSoftware.sln`).
+4.  Build the solution (`Build > Build Solution`, or `msbuild MetricaEngenhariaSoftware.sln`).
 
 ## Usage
 
@@ -27,6 +27,6 @@ A standard software project focused on providing a robust and scalable foundatio
 
 To run the application:
 
-1.  Navigate to the `bin` directory.
-2.  Execute: `npm start` (or similar command as specified in `README.md`)
+1.  Set `MetricaEngenhariaSoftware` as the startup project in Visual Studio.
+2.  Press `F5` (or `Ctrl+F5`) to start it in the browser through IIS Express.
 ```
